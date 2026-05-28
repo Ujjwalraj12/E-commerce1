@@ -1,0 +1,181 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f1f3f6;
+    
+}
+
+
+.header{
+    background-color: white;
+    padding: 10px 20px;
+}
+
+
+.top{
+    width: 100%;
+}
+
+.logo,
+.travel{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5px 10px;
+    padding: 10px 20px;
+
+} 
+
+.logo{
+    background-color: #ffe500;
+    color :black;
+}
+
+.travel{
+    background-color: #eaeaea;
+    color: black;
+}
+
+.travel img{
+    width: 20px;
+    vertical-align: middle;
+}
+.logo img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+
+.location{
+    font: size 20px;
+    font-style: italic;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 70%;
+}
+
+
+.middle{
+    margin-top: 15px;
+}
+
+.middle input{
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    background-color: #f0f5ff;
+    font-size: 16px;
+}
+
+.middle span{
+    margin-left: 25px;
+    font-weight: 400;
+    cursor: pointer;
+} 
+
+
+.bottom{
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.bottom .box{
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    vertical-align: top;
+}
+
+.box img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.box h3{
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+
+.image{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image img{
+    width: 32%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.continer1{
+    background-color: white;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.continer1 img{
+    width: 23%;
+    height: 300px auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.footer{
+    background-color: #172337;
+    color: white;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.description, .about, .help{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5%;
+    width: 300px;
+    height: auto;
+}
+
+.footer h3{
+    margin-bottom: 15px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin-bottom: 10px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+} 
+
+
